@@ -1,0 +1,17 @@
+name          = LaDiDa
+description   = default ladida theme.
+version       = VERSION
+core          = 6.x
+engine        = phptemplate
+
+stylesheets[all][]    = css/style.css
+stylesheets[print][]  = css/print.css
+
+scripts[]             = scripts/AC_RunActiveContent.js
+
+regions[left]     = Left sidebar
+regions[right]    = Right sidebar
+regions[content]  = Content
+regions[header]   = Header
+regions[footer]   = Footer
+regions[admin]    = Admin

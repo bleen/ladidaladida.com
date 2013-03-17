@@ -1,0 +1,4 @@
+; $Id$
+name = Brands
+description = Manage logos and links to the brands that ladida sells. Creates data as XML file for use by flash. 
+core = 6.x

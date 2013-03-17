@@ -1,0 +1,4 @@
+; $Id$
+name = X
+description = A module to handle the main content of the site
+core = 6.x
