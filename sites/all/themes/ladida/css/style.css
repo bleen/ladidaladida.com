@@ -72,11 +72,11 @@ ul.primary {
 #content .fb-like-box {
   position: absolute;
   top: -1px;
-  right: -185px;
+  right: -200px;
   border: 1px solid #000;
   padding: 3px;
   background: #fff;
-  width: 175px;
+  width: 190px;
 }
 #left {
   position: absolute;

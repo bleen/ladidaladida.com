@@ -40,7 +40,7 @@
       </div>
 
       <div id="content">
-        <div class="fb-like-box" data-href="http://www.facebook.com/pages/LaDiDa/131956486829974" data-width="175" data-show-faces="false" data-stream="false" data-header="true"></div>
+        <div class="fb-like-box" data-href="http://www.facebook.com/pages/LaDiDa/131956486829974" data-width="190" data-show-faces="true" data-stream="false" data-border-color="#fff" data-header="false"></div>
         <?php if ($tabs): print $tabs; endif; ?>
         <?php if ($tabs2): print $tabs2; endif; ?>
         <?php if ($show_messages && $messages){ print $messages; } ?>
