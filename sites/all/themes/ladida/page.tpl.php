@@ -40,12 +40,18 @@
       </div>
 
       <div id="content">
-        <div class="fb-like-box" data-href="http://www.facebook.com/pages/LaDiDa/131956486829974" data-width="190" data-show-faces="true" data-stream="false" data-border-color="#fff" data-header="false"></div>
+        <div class="social">
+          <div class="fb-like-box" data-href="http://www.facebook.com/pages/LaDiDa/131956486829974" data-width="190" data-show-faces="true" data-stream="false" data-border-color="#fff" data-header="false"></div>
+          <ul>
+            <li class="twitter"><a href="http://twitter.com"><img alt="Follow us on Twitter" src="/<?php print path_to_theme() . '/images/icon-twitter.png' ?>" /></a></li>
+            <li class="pinterest"><a href="http://pinterest.com/ladida8186/"><img alt="Follow us on Pinterest" src="/<?php print path_to_theme() . '/images/icon-pinterest.png' ?>" /></a></li>
+          </ul>
+        </div>
         <?php if ($tabs): print $tabs; endif; ?>
         <?php if ($tabs2): print $tabs2; endif; ?>
         <?php if ($show_messages && $messages){ print $messages; } ?>
         <?php print $content ?>
-        <img src="/<?php print path_to_theme().'/images/bags.png' ?>" alt="" width="192" height="81" class="bags">
+        <img src="/<?php print path_to_theme() . '/images/bags.png' ?>" alt="" width="192" height="81" class="bags">
       </div>
 
       <div id="left">

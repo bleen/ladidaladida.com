@@ -69,7 +69,7 @@ ul.primary {
   margin-bottom: 1em;
   position: relative;
 }
-#content .fb-like-box {
+#content .social {
   position: absolute;
   top: -1px;
   right: -200px;
@@ -77,6 +77,25 @@ ul.primary {
   padding: 3px;
   background: #fff;
   width: 190px;
+}
+#content .fb-like-box {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+#content .social ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#content .social li {
+  display: inline-block;
+  padding: 5px;
+  max-width: 50px;
+}
+#content .social img {
+  width: 100%;
 }
 #left {
   position: absolute;
