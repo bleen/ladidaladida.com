@@ -43,6 +43,7 @@
         <div class="social">
           <div class="fb-like-box" data-href="http://www.facebook.com/pages/LaDiDa/131956486829974" data-width="190" data-show-faces="true" data-stream="false" data-border-color="#fff" data-header="false"></div>
           <ul>
+            <li class="facebook"><a href="https://www.facebook.com/pages/LaDiDa/131956486829974"><img alt="Friend us on Facebook" src="/<?php print path_to_theme() . '/images/icon-facebook.png' ?>" /></a></li>
             <li class="twitter"><a href="http://twitter.com"><img alt="Follow us on Twitter" src="/<?php print path_to_theme() . '/images/icon-twitter.png' ?>" /></a></li>
             <li class="pinterest"><a href="http://pinterest.com/ladida8186/"><img alt="Follow us on Pinterest" src="/<?php print path_to_theme() . '/images/icon-pinterest.png' ?>" /></a></li>
           </ul>
